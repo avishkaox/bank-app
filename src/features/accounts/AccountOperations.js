@@ -13,6 +13,8 @@ function AccountOperations() {
 
   function handleDeposit() {
     dispatch(deposite(depositAmount, currency));
+    console.log(depositAmount);
+    console.log(currency);
     setDepositAmount("");
   }
 
