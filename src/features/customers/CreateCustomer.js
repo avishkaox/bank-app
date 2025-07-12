@@ -14,6 +14,15 @@ function Customer() {
 
   return (
     <div>
+      {/* array methods  */}
+      {/* {Array.map((item , index)=>(
+        <p key={index} >{item}</p>
+      ))}
+      {Array.filter((item)=>item > 2)}
+      {Array.reduce((previous, current) => 
+        previous + current
+      , 0)}
+      {Array.slice().sort((a,b)=>a-b)} */}
       <h2>Create new customer</h2>
       <div className="inputs">
         <div>
