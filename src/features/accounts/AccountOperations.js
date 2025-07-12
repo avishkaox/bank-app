@@ -16,6 +16,7 @@ function AccountOperations() {
     console.log(depositAmount);
     console.log(currency);
     setDepositAmount("");
+    console.log(account);
   }
 
   function handleWithdrawal() {
